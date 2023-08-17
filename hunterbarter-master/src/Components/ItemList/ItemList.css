@@ -1,0 +1,52 @@
+.List {
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  margin-left: 10vw;
+  width: 80vw;
+  justify-content: space-around;
+}
+.itemCard {
+  margin: 25px;
+}
+.contactModal {
+  font-size: 1.8em;
+  position: absolute;
+  width: 40vw;
+  background-color: white;
+  padding: 30px;
+  top: 10vh;
+  left: 30vw;
+}
+@media only screen and (max-width: 1000px) {
+  /* For mobile phones: */
+
+  .contactModal {
+    font-size: 1.4em;
+    position: absolute;
+    width: 500px;
+    background-color: white;
+    padding: 10px;
+    top: 10vh;
+    left: 20vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /* For mobile phones: */
+  .List {
+    margin-left: 0vw;
+    width: 100vw;
+  }
+  .itemCard {
+    margin-bottom: 20px;
+  }
+  .contactModal {
+    font-size: 1em;
+    position: absolute;
+    width: 400px;
+    background-color: white;
+    padding: 10px;
+    top: 10vh;
+    left: 10vw;
+  }
+}

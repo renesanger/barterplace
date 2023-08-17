@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+.container {
+  width: 80vw;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-around;
+}
